@@ -1,0 +1,9 @@
+3. Sample 객체 a에 대한 참조변수 ref를 선언하는 문장을 제시하세요.
+Sample &ref = a;
+
+
+4. Sample 클래스의 복사 생성자를 선언하는 함수원형을 제시하세요. 단, 매개변수는 s로 합니다
+
+class Sample {
+	Sample(const Sample &s);
+};
